@@ -7,7 +7,7 @@ clc
 % testset_path  = './itzik/MatlabProjects/3DmFVNet/data/ModelNet40/test/';
 
 %new path in my computer
-results_path = 'E:/LYYgithub/3DmFV_Data/log/g8_1024';
+results_path = 'E:/LYYgithub/3DmFV_Data/log/g8_1024/';
 testset_path  = 'E:/LYYgithub/3DmFV_Data/data/ModelNet40/test/';
 
 
