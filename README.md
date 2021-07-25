@@ -1,5 +1,9 @@
 **3DmFV** : Three-Dimensional Point Cloud Classification in Real-Time using Convolutional Neural Networks
 ---
+
+这是一个迁移项目，主要能够进行点云目标分类，使用了一种很新颖的深度学习方法vmf，LYY搞过来学习一下，再此声明。
+为尊重作者版权，相关声明页附下：
+
 Created by [Yizhak Ben-Shabat (Itzik)](http://www.itzikbs.com), [Michael Lindenbaum](http://www.cs.technion.ac.il/people/mic/index.html), and [Anath Fischer](https://meeng.technion.ac.il/members/anath-fischer/) from Technion, I.I.T.
 
 ![3DmFV Architecture](https://github.com/sitzikbs/3DmFV-Net/blob/master/doc/3dmfvnet_architecture.PNG)
