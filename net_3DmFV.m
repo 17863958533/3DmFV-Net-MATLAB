@@ -4,7 +4,7 @@ function lgraph = net_3DmFV(inputSize, numClasses)
 %        inputSize: input size ( length 4 vector )
 %       numClasses: number of classes [int scalar]
 % Output:
-%        lgraph: the current layer graph        
+%        lgraph: the current layer graph 输出当前层       
 lgraph = layerGraph;
 lgraph = addLayers(lgraph, image3dInputLayer(inputSize, 'Normalization', 'none', 'name','input_layer'));
 [lgraph, cnn_last_layer_name] = CNN_3DmFV_Net(lgraph, inputSize);
@@ -116,7 +116,7 @@ lgraph = connectLayers(lgraph,['relu_4', module_scope], ['concat_', module_scope
 end
 
 function layers = non_linear_classifier(numClasses, scope)
-% 3DmFV non linear classifier architecture
+% 3DmFV non linear classifier architecture 3DmFV非线性分类器结构
 %Input:
 %     numClasses: number of classes [int scalar]
 %     scope: unique string 
